@@ -46,4 +46,6 @@
 .services{
     background-image: url("images/fondservices.png");
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
 }
