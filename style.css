@@ -89,9 +89,9 @@ div.punchline{
     font-weight: bold;
 }
 .bon{
-    height: 70vh;
+    height: 30vh;
     justify-content: flex-end;
-    padding: 20px;
+    padding: 50px;
 }
 
 .portfolio{
@@ -112,8 +112,12 @@ div.punchline{
 .port-select{
     color: black;
     border: deepskyblue 2px solid;
-    padding: 8px;
+    padding-top: 8px;
     margin-right: 35px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 8px;
+
 }
 .port-gim{
     color: black;
@@ -135,7 +139,12 @@ div.punchline{
     margin: 15px;
     padding: 15px;
 }
-
+.serv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
 
 .image1{
     background-image: url("images/portfolio/1.png");
@@ -166,6 +175,7 @@ div.punchline{
     height: 70vh;
     background-color: #474d50;
     padding-top: 80px;
+    padding-bottom: 0px;
 }
 
 .defaultb{
@@ -195,4 +205,43 @@ p{
 iframe{
     justify-content: center;
     align-items: center;
+}
+
+.twitter{
+    background-color: deepskyblue;
+    height: 30vh;
+    display: flex;
+}
+.twitterTitle{
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+
+
+}
+
+.logoTwitter{
+    background-image: url("images/twitter.png");
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 5vh;
+
+
+
+}
+.twitterUnderTitle{
+    color: white;
+}
+
+
+.bio{
+    background-color: #5ca2c5;
+    height: 40vh;
+}
+
+.bioTitle{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
 }
